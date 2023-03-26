@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(40,44,52);
+  color: white;
+}
+
+header {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 3em;
+  color: #61dafb;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: space-around;
+  gap: 1em;
+  align-items: center;
+  margin: 0 auto;
+  height: 70vh;
+  font-size: 1.3em;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 4em;
+  border-radius: 15px;
+}
+
+main p#text {
+  font-size: 1.3em;
+  text-align: justify;
+}
+
+input {
+  font-size: 1.3em;
+  border: 1px solid gray;
+  width: 300px;
+  height: 45px;
+  margin: 0px 10px;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 10px 40px;
+  background-color: #61dafb;
+  border-radius: 15px;
+}
+
+main #result {
+  display: inline-block;
+  width: 300px;
+  height: 45px;
+  background-color: #61dafb;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px 10px;
+  font-size: 1.5em;
+}
+
+#calculo p {
+  text-align: center;
+  margin: 0.5em;
+  line-height: 45px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  font-size: 1.5em;
+}
