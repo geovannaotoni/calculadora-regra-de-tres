@@ -8,10 +8,12 @@
 body {
   background-color: rgb(40,44,52);
   color: white;
+  position: relative;
 }
 
 header {
   height: 15vh;
+  padding: 1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,10 +32,10 @@ main {
   gap: 1em;
   align-items: center;
   margin: 0 auto;
-  height: 70vh;
+  min-height: 70vh;
   font-size: 1.3em;
   background-color: rgba(255, 255, 255, 0.15);
-  padding: 4em;
+  padding: 3em;
   border-radius: 15px;
 }
 
@@ -45,7 +47,7 @@ main p#text {
 input {
   font-size: 1.3em;
   border: 1px solid gray;
-  width: 300px;
+  width: 30%;
   height: 45px;
   margin: 0px 10px;
   text-align: center;
@@ -64,7 +66,7 @@ button {
 
 main #result {
   display: inline-block;
-  width: 300px;
+  width: 30%;
   height: 45px;
   background-color: #61dafb;
   color: black;
@@ -81,12 +83,14 @@ main #result {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  height: 15vh;
+  /* position: absolute;
+  bottom: 0; */
+  margin-top: 2em;
+  margin-bottom: 1em;
+  height: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   font-size: 1.5em;
 }
